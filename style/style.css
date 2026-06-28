@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+    /* HEADER */
+    font-family: Poppins;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+    width: 85%;
+    margin: auto;
+    
+}
+nav,ul,a{
+    display: flex;
+   
+    list-style-type: none;
+}
+
+a {
+    /* padding: 20px; */
+    text-decoration: none;
+    color: black;
+    /* border: 2px solid orangered; */
+}  
+.icone{
+    /* border: 2px solid orangered; */
+    width: 15%;
+    
+}
+.abd{
+    padding: 0px;
+    margin: 5px;
+    margin-top: 45px;
+    /* border: 2px solid blue; */
+    padding-right: 25px;
+    text-align: right;
+}
+/* MAIN */
+/* SECTION 1 */
+.agence{
+    background-image: url("/Images/backgroung_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    width: 85%;
+    margin: auto;
+    padding-top: 0px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 125px;
+    color: white;
+    
+    
+}
+.image{
+    height: 45px;
+    padding: 10px;
+}
+/* SECTION2 */
+.icone0{
+    width: 70%;
+    margin: auto;
+    /* border: 1px solid black; */
+    margin-top: 25px;
+
+}
+.icone1{
+    /* border: 1px solid orangered; */
+    text-align: center;
+}
+.icone2{
+    /* border: 1px solid black; */
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+.icone{
+margin: 15px;
+width: 15%;
+
+}
+.icone,h3{
+    margin: 15px;
+}
+.icone,p{
+    font-size: 13px;
+}
+.icone3 p{
+    font-size: 20px;
+    margin-top: 25px;
+}
+.icone4 p{
+    font-size: 15px;
+    margin-top: 25px; 
+    color: #3a3939;
+}
+/* FOOTER */
+.footer{
+    border: 1px solid black;
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    background-color: hsl(261.55deg 48.82% 41.37%);
+}
+footer{
+    margin-top: 15px;
+    
+}
+.foot2{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+} 
+.foot1 p{
+    padding-top: 15px;
+    color: white;
+}  
+.foot{
+    padding: 0px 50px;
+    padding-top: 15px;
+    color: white;
+}
+.foot3{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.foo{
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+.cool{
+    list-style-type: square;;
+    flex-direction: column;
+}
+.foo p{
+    padding-left: 25px;
+}
