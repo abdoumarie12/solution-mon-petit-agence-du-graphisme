@@ -23,9 +23,9 @@ a {
     color: black;
     /* border: 2px solid orangered; */
 }  
-.icone{
+.iconeh{
     /* border: 2px solid orangered; */
-    width: 15%;
+    width: 20%;
     
 }
 .abd{
@@ -51,6 +51,7 @@ a {
 .box{
     display: flex;
     flex-direction: column;
+    /* justify-content: center; */
     align-items: center;
     padding-top: 125px;
     color: white;
@@ -81,14 +82,17 @@ a {
 }
 .icone{
 margin: 15px;
-width: 15%;
+width: 30%;
 
 }
-.icone,h3{
+.icone h3{
     margin: 15px;
 }
-.icone,p{
+.icone p{
     font-size: 13px;
+    
+
+
 }
 .icone3 p{
     font-size: 20px;
@@ -131,6 +135,10 @@ footer{
     margin-top: 20px;
     margin-bottom: 20px;
     
+}
+i{
+    font-size: 30px;
+    color: white;
 }
 .foo{
     text-align: left;
